@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GOU Tablero de noticias - UI
 
-## Getting Started
+Gou University es una pwa (progressive web app) versión móvil para la difución de noticias , eventos e información detallada de la Universidad de Córdoba (Monterí-Colombia), por medio de tableros y subgrupos informativos de contenido cultural, academico, deportivo y social.
 
-First, run the development server:
+_Demo prev_
+[![Demo](https://res.cloudinary.com/dqhme1rod/image/upload/v1631035271/t52ibdxdgqatxtxt4qtd.png)](https://res.cloudinary.com/dqhme1rod/video/upload/v1631035193/fcw2cinfsvigmklyotfv.mp4)
 
-```bash
-npm run dev
-# or
-yarn dev
+## Principales funtiones:
+
+- Crear y eliminar tableros informativos
+- Crear , eliminar y editar posts en un tablero específico
+- Crear tableros privados o públicos
+
+### objetivos
+
+- Proponer Actividades participativas por medio de posts en un tablero para los estudiantes
+- Medir la Participación de los estudiantes en un tablero
+- Ayudas academicas por medios de los posts
+
+## Comenzando 🚀
+
+Proyecto en desarrollo...
+Por el momento solo estan las interfaces
+
+### Instalación 🔧
+
+_Pudes ejecutar el proyecto en un entorno de desarrllo con_
+
+_Instalar las dependencias necesarias_
+
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+_Ejecutarlo localmente_
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Construido con 🛠️
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [React](https://es.reactjs.org/) - El framework web usado
+- [Next.js](https://nextjs.org/) - React framework- server and static rendering
+- [css] - css en jsx y css modules
+- [AdobeXd](https://xd.adobe.com/view/ea374f41-325c-41fa-bdd2-3ee078e34ddf-bf64/)- desarrollo UX/UI
 
-## Learn More
+## Autores ✒️
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Angel Arrieta** - _FrontEnd and Backend_ - [anuidev8](https://github.com/anuidev8)
+- **Neider Lopez** - _Backend_- [khinler](https://github.com/Khinler)
+- **Jairo Correa** - \_Diseñador UX/UI - [jairo.ui](https://www.instagram.com/jairo.ui)

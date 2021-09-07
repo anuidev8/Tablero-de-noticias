@@ -1,0 +1,47 @@
+.BottomNavigationBar{
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width:100%;
+  z-index: 100;
+  filter: drop-shadow(0px -5px 6px #00000029);
+}
+
+.BottomNavigationBarWrapper{
+  position: relative;
+  height: 55px;
+  justify-content: space-around;
+  padding: .553em 3em;
+  border-top-right-radius: 1.2em;
+  border-top-left-radius: 1.2em;
+  background-color:var(--primary-color) ;
+  list-style: none;
+  z-index: 100;
+}
+
+.itemsBottomNavigation{
+  cursor: pointer;
+}
+.itemsBottomNavigation:nth-child(1){
+  padding-right: 3em;
+}
+.itemsBottomNavigation:nth-child(2){
+  padding-left: 3em;
+}
+.iconBottomNavigation{
+  fill: var( --green-dark-color);
+}
+.createButton{
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  border:2px solid var( --green-dark-color);
+  fill:var( --green-dark-color) ;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
